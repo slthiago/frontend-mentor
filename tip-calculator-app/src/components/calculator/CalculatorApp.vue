@@ -10,6 +10,6 @@ import FormApp from '../form/FormApp.vue'
   </div>
 </template>
 
-<style scoped>
-@import './calculator-app.css';
+<style scoped lang="scss">
+@import './calculator-app.scss';
 </style>
