@@ -1,0 +1,47 @@
+.display-app {
+	position: relative;
+	width: 20.625rem;
+	height: 320px;
+	background-color: var(--very-dark-cyan);
+	padding: 2rem;
+	border-radius: 1rem;
+
+	&__amount, &__total {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-bottom: 2rem;
+
+		&--title {
+			font-size: 1rem;
+			font-weight: 700;
+			color: var(--very-light-grayish-cyan);
+		}
+
+		&--subtitle {
+			font-size: .75rem;
+			color: var(--grayish-cyan);
+		}
+
+		&--amount-value, &--total-value {
+			font-size: 2rem;
+			font-weight: 700;
+			color: var(--price-color);
+		}
+	}
+
+	&__button-reset {
+		background-color: var(--bg-button-reset);
+		border: none;
+		width: 82%;
+		padding: .5rem;
+		border-radius: .25rem;
+		font-size: 1rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: hsl(183, 65%, 23%);
+		position: absolute;
+		bottom: 30px;
+		cursor: pointer;
+	}
+}

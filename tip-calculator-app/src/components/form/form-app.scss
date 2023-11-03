@@ -1,0 +1,126 @@
+.form-app {
+	max-width: 20.625rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+
+	&__bill {
+		display: flex;
+		flex-direction: column;
+
+		&--title {
+			font-size: 1rem;
+			font-weight: 700;
+			color: var(--very-dark-cyan);
+			padding-bottom: .5rem;
+		}
+
+		&--input {
+			position: relative;
+
+			input {
+				background-color: var(--very-light-grayish-cyan);
+				border: none;
+				border-radius: .25rem;
+				text-align: end;
+				padding: .25rem .625rem;
+				font-size: 1rem;
+				color: var(--very-dark-cyan);
+				width: 100%;
+			}
+
+			input::placeholder {
+				color: var(--very-dark-cyan);
+			}
+
+			.icon-dolar {
+				position: absolute;
+				left: .625rem;
+				top: .5rem;
+			}
+		}
+	}
+
+	&__tip {
+		&--title {
+			font-size: 1rem;
+			font-weight: 700;
+			color: var(--very-dark-cyan);
+		}
+
+		&--buttons {
+			display: flex;
+			flex-wrap: wrap;
+			gap: .5rem;
+			padding-top: .5rem;
+
+			button {
+				font-size: 1.25rem;
+				font-weight: 700;
+				color: var(--white);
+				background-color: var(--very-dark-cyan);
+				border: none;
+				padding: .25rem;
+				width: 6.5rem;
+				height: 2.5rem;
+				border-radius: .375rem;
+			}
+
+			input {
+				color: var(--very-dark-cyan);
+				background-color: var(--very-light-grayish-cyan);
+				border: none;
+				padding: .25rem;
+				width: 6.5rem;
+				height: 2.5rem;
+				border-radius: .375rem;
+				text-align: center;
+				font-weight: 700;
+			}
+
+			input::placeholder {
+				color: var(--very-dark-cyan);
+				font-size: 1.25rem;
+				font-weight: 700;
+				text-align: center;
+			}
+		}
+	}
+
+	&__peoples {
+		display: flex;
+		flex-direction: column;
+
+		&--title {
+			font-size: 1rem;
+			font-weight: 700;
+			color: var(--very-dark-cyan);
+			padding-bottom: .5rem;
+		}
+
+		&--input {
+			position: relative;
+
+			input {
+				background-color: var(--very-light-grayish-cyan);
+				border: none;
+				border-radius: .25rem;
+				text-align: end;
+				padding: .25rem .625rem;
+				font-size: 1rem;
+				color: var(--very-dark-cyan);
+				width: 100%;
+			}
+
+			input::placeholder {
+				color: var(--very-dark-cyan);
+			}
+
+			.icon-person {
+				position: absolute;
+				left: .625rem;
+				top: .5rem;
+			}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+@import '../../assets/base.css';
+
+.calculator-app {
+	background-color: var(--white);
+	border-radius: 1.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	padding: 2rem;
+}
